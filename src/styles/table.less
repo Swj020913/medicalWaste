@@ -1,0 +1,50 @@
+@bcolor: #ddd;
+// table
+.tb {
+    border: 1px solid @bcolor;
+    th {
+        border-width: 1px;
+        border-style: solid;
+        border-color: @bcolor;
+        background-color: @table-header-bg;
+        vertical-align: middle;
+        font-weight: normal;
+        padding: @table-padding-vertical @table-padding-horizontal;
+    }
+    td {
+        background-color: #fff;
+        border-bottom: 1px solid @bcolor;
+        word-wrap: break-word;
+        word-break: break-all;
+        vertical-align: middle;
+        padding: @table-padding-vertical @table-padding-horizontal;
+        border-color: @bcolor;
+        border-left: 1px solid @bcolor;
+    }
+}
+
+.tb-n {
+    border-width: 0px;
+    th,
+    td {
+        border: 0;
+        background: none;
+        vertical-align: middle;
+    }
+}
+
+.tb-s {
+    border-left: 1px solid @bcolor;
+    border-top: 1px solid @bcolor;
+}
+
+.tb-s th {
+    background-color: @table-header-bg;
+    border-bottom: 1px solid @bcolor;
+    border-right: 1px solid @bcolor;
+}
+
+.tb-s td {
+    border-bottom: 1px solid @bcolor;
+    border-right: 1px solid @bcolor;
+}

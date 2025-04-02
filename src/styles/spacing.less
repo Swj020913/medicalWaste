@@ -1,0 +1,55 @@
+@spacinglist: 5, 10, 15, 20, 25, 30, 35, 40, 50, 100, 200;
+
+.spacing-loop(@counter) when (@counter > 0) {
+  @class: extract(@spacinglist, @counter);
+  .m-@{class}{
+    margin: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .mt-@{class}{
+    margin-top: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .mb-@{class}{
+    margin-bottom: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .mtb-@{class}{
+    margin-top: (1px * extract(@spacinglist, @counter)) !important; 
+    margin-bottom: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .ml-@{class}{
+    margin-left: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .mr-@{class}{
+    margin-right: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .mlr-@{class}{
+    margin-left: (1px * extract(@spacinglist, @counter)) !important; 
+    margin-right: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+
+  .p-@{class}{
+    padding: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .pt-@{class}{
+    padding-top: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .pb-@{class}{
+    padding-bottom: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .ptb-@{class}{
+    padding-top: (1px * extract(@spacinglist, @counter)) !important; 
+    padding-bottom: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .pl-@{class}{
+    padding-left: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .pr-@{class}{
+    padding-right: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .plr-@{class}{
+    padding-left: (1px * extract(@spacinglist, @counter)) !important; 
+    padding-right: (1px * extract(@spacinglist, @counter)) !important; 
+  }
+  .spacing-loop((@counter - 1)) !important;  
+}
+
+.spacing-loop(11);

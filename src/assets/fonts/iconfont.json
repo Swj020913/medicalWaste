@@ -1,0 +1,324 @@
+{
+  "id": "2411492",
+  "name": "医疗废物管理",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "169960",
+      "name": "安全防护",
+      "font_class": "anquanfanghu",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "961415",
+      "name": "save",
+      "font_class": "baocun",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "13700281",
+      "name": "加油",
+      "font_class": "ziyuan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "15089318",
+      "name": "运输公司",
+      "font_class": "yunshugongsi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "17811496",
+      "name": "ic_燃料加注",
+      "font_class": "ic_ranliaojiazhu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "762873",
+      "name": "高度",
+      "font_class": "gaodu",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "1489095",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "4923926",
+      "name": "建筑",
+      "font_class": "building",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "14835553",
+      "name": "面积",
+      "font_class": "area",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "18165327",
+      "name": "量杯,测验,化学",
+      "font_class": "cup-full",
+      "unicode": "e887",
+      "unicode_decimal": 59527
+    },
+    {
+      "icon_id": "18165328",
+      "name": "量杯,测验,化学",
+      "font_class": "cup",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "6129301",
+      "name": "259体积、空间-线性",
+      "font_class": "tijikongjian-xianxing",
+      "unicode": "e7dd",
+      "unicode_decimal": 59357
+    },
+    {
+      "icon_id": "6677873",
+      "name": "湿度",
+      "font_class": "shidu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "7239689",
+      "name": "deployment-unit",
+      "font_class": "deployment-unit",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "11858524",
+      "name": "水位",
+      "font_class": "shuiwei",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "12331688",
+      "name": "温度",
+      "font_class": "wendu",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "13805009",
+      "name": "液位",
+      "font_class": "yewei",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "15872054",
+      "name": "油品检测",
+      "font_class": "youpinjiance",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2152251",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "3775171",
+      "name": "房子",
+      "font_class": "fangzi1",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "18170927",
+      "name": "房子,屋子,小屋",
+      "font_class": "house",
+      "unicode": "e9ed",
+      "unicode_decimal": 59885
+    },
+    {
+      "icon_id": "774369",
+      "name": "公告",
+      "font_class": "gonggao",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9626956",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "9712624",
+      "name": "收起",
+      "font_class": "shouqi",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "9712656",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "12702655",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "1163362",
+      "name": "铁路",
+      "font_class": "tielu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "2959113",
+      "name": "油耗参数设置",
+      "font_class": "youhaocanshushezhi",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "3267405",
+      "name": "荣誉",
+      "font_class": "rongyu",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "5188640",
+      "name": "屿你油",
+      "font_class": "yuniyou",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5296751",
+      "name": "单位",
+      "font_class": "danwei",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "6296998",
+      "name": "库房管理",
+      "font_class": "kufangguanli",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6536711",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "7171126",
+      "name": "粮油仓储企业备案",
+      "font_class": "beian",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "8084543",
+      "name": "布局",
+      "font_class": "buju",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "8312765",
+      "name": "油费信息管理",
+      "font_class": "youfeixinxiguanli",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "13468925",
+      "name": "不合格产品",
+      "font_class": "buhegechanpin",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "14421649",
+      "name": "油漆桶",
+      "font_class": "youqitong_huaban1",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "15045041",
+      "name": "图表（线_通用）_统计",
+      "font_class": "tubiaoxian_tongyong_tongji",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "15739175",
+      "name": "项目概况",
+      "font_class": "xiangmugaikuang",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "15761102",
+      "name": "油罐车-",
+      "font_class": "youguanche-",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    },
+    {
+      "icon_id": "15928071",
+      "name": "管线标注",
+      "font_class": "guanxianbiaozhu",
+      "unicode": "e773",
+      "unicode_decimal": 59251
+    },
+    {
+      "icon_id": "17734868",
+      "name": "组织架构管理",
+      "font_class": "zuzhijiagouguanli",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "18437449",
+      "name": "不合格品unqualified",
+      "font_class": "buhegepinunqualified",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "19811082",
+      "name": "油机监测",
+      "font_class": "youjijiance_1",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}

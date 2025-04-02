@@ -1,0 +1,52 @@
+/* 扩展ant design 按钮组件颜色 */
+
+@buttonColors : red,
+orange,
+green,
+cyan,
+blue,
+purple,
+magenta,
+aqua,
+mediumseagreen;
+
+
+.button-color-classes(@i: length(@buttonColors)) when (@i > 0) {
+    .button-color-classes(@i - 1);
+    @color: extract(@buttonColors, @i);
+
+    &.button-color-@{color} {
+        background-color: @color  !important;
+        border-color    : @color  !important;
+
+        &:hover,
+        &:focus {
+            background-color: tint(@color, 20%) !important;
+            border-color    : tint(@color, 20%) !important;
+        }
+
+        &:active,
+        &.active {
+            background-color: tint(@color, 1%) !important;
+            border-color    : tint(@color, 1%) !important;
+        }
+    }
+}
+
+.button-color-classes();
+
+//table
+.ant-table-row {
+    &.odd-table-row td {
+        background: tint(@table-selected-row-bg, 30%) !important;
+    }
+}
+
+//modal
+.ant-modal {
+
+    .ant-modal-header {
+        cursor: move;
+    }
+
+}
